@@ -1,0 +1,221 @@
+/* 
+  Localizable.strings
+  Al-Mahata
+
+  Created by abdelrahman on 6/10/18.
+  Copyright © 2018 abdelrahman. All rights reserved.
+*/
+"Privacy" = "الخصوصية";
+"Login" = "تسجيل الدخول";
+"Home" = "الرئيسية";
+"Contact Us" = "أتصل بنا";
+"Setting" = "الإعدادات";
+"Notifications" = "الإشعارات";
+"Logout Message" = "هل أنت متأكد من أنك تريد تسجيل الخروج ؟";
+"Delete Message" = "هل أنت متأكد من أنك تريد الحذف ؟";
+"Yes" = "نعم";
+"No" = "لا";
+"Logout Title" = " تسجيل الخروج";
+"Email" = "البريد الإلكترونى";
+"RememberMe" = "احتفظ ببيانات الدخول";
+"Password" = "كلمة المرور";
+"Forgot Password ?" = "هل نسيت كلمة المرور ؟";
+"Sign Up" = "تسجيل";
+"Sign In" = "الدخول";
+"Connect With Facebook" = "دخول بواسطة الفيس بوك";
+"Connection With" = "تسجيل بواسطة";
+"Connect With Twitter" = "دخول بواسطة تويتر";
+"Dashboard" = "لوحة التحكم";
+"Edit Profile" = "تعديل الملف الشخصي";
+"Edit Phone" =  "تعديل رقم الجوال";
+"Update Password"  =  "تحديث كلمة المرور";
+"Settings" = "الإعدادات";
+"Switch Language" = "تغيير اللغة";
+"Language" = "اللغة";
+"Logout" = "تسجيل الخروج";
+"Change Language Message" = "هل أنت متأكد من أنك تريد تغيير اللغة ؟";
+"Change Language" = "تغيير اللغة";
+"Change Password" = "تغيير كلمة المرور";
+"Change Phone" = "تغيير رقم الجوال";
+"Confirm Password" = "تأكيد الرقم السري";
+"City" = "المدينة";
+"Region" = "المنطقه" ;
+"Male" = "ذكر";
+"Famale" = "انثي";
+"Skip" = "تخطي";
+
+"Phone" = "رقم الجوال";
+"First Name" = "الاسم الاول";
+"Last Name" = "اسم العائله";
+// activation
+"Resend" = "إعادة إرسال";
+"Submit" = "متابعة";
+"Next" = "التالي";
+"Activation Message" = "إذا لم تستلم كود التفعيل في خلال ال ٣٠ ثانية القادمة ، يمكنك إعادة إرسال الكود .";
+//end activation
+
+"Worng" = "خطأ";
+"Required" = "مطلوب";
+"OK" = "متابعة";
+"error" = "خطأ";
+"please insert all code" = "من فضلك أدخل الكود كاملا";
+"wrong code" = "كود خاطئ";
+"Products" = "المنتجات";
+// validation messages
+"Is Required" = "مطلوب ادخاله";
+"Is Invalid" = "غير صحيح";
+"Success" = "تم بنجاح";
+"should not be numbers only or spcial characters"  =  "لا يجب ان يكون ارقام او حروف خاصة";
+"should not be numbers only"  =  "لا يجب ان يكون ارقام فقط";
+"should be numbers only"  =  "يجب ان يكون ارقام فقط";
+"password valid"  =  "يجب أن تحتوي على حرف كبير وحرف صغير \n ورقم على الأقل";
+"must contain only letter" = "يجب ان يكون حروف فقط" ;
+"Username" = "إسم المستخدم";
+
+"Worng Confirm Password" = "تأكيد كلمة المرور غير صحيح";
+"Code Sent Successfuly" = "تم إعادة إرسال الكود بنجاح";
+
+
+//// BLUE Age
+
+"introName1" = "تسوقي بأمان وسعادة";
+"introName2" = "سهولة إرجاع المنتجات أونلاين";
+"introName3" = "اكتشف خاصية أستلمها من المتجر";
+"introName4" = "الدفع نقدا أو عبر البطاقات المصرفية";
+"introName5" = "تسوق أسرع مع خدمة اشتري الأن";
+
+"introDesc1" = "تمتعي بالتسوق ومعرفة أن بيانتك الشخصية أمنة";
+"introDesc2" = "يمكنك إرجاع أو إالغاء منتجاتك من حسابك عبر خطوات قليلة سهلة.";
+"introDesc3" = "الان تسوق وادفع لطلبك اونلاين واستلم منتجاتك من المتجر";
+"introDesc4" = "نحن نقبل الدفع نقدا عند الاستلام وبطاقات الائتمان أو بطاقات الخصم المباشر";
+"introDesc5" = "قم بإتمام طلبك , ادفع وأنهي عملية التسوق في خطوة واحدة سهلة ومريحة";
+
+"Continue" = "الأستمرار";
+"Shop now" = "تسوق الأن";
+
+"Page0Descraption" = "ابحث عن منتج مناسب لأسلوبك في الأرياء بسهولة من بين الاف الموديلات عن طريق البرنامج الخاص بنا";
+"Page1Descraption" = "ادفع قيمة كل مشترياتك اونلاين عن طريق كل بطاقات الئتمان المتاحة";
+"Page2Descraption" = "استلم طلبك في اسرع وقت ممكن وبأفضل حالة مع إمكانية تتبع طلبك";
+
+"Explore" = "اكتشف" ;
+"Pay" = "ادفع" ;
+"Fast Delivery" = "توصيل سريع" ;
+
+"introTVCName1" = "تتبع شحنتك" ;
+"introTVCName2" = "ميعاد وصول المنتجات" ;
+"introTVCName3" = "الأحداث والفاعليات الخاصة" ;
+"introTVCName4" = "العروض الخاصة" ;
+
+"introTVCDesc1" = "بإمكان عملائنا الكرام معرفة الزمن الفعلى لوصول شحناتهم من خلال استخدام نظام تتبع الشحنات الكترونيا" ;
+"introTVCDesc2" = "بإمكان عملائنا معرفة ميعاد وصول المنتجات المختارة اذا كانت غير متوفرة بالموقع" ;
+"introTVCDesc3" = "بإمكان عملائنا الأشتراك بجميع أنواع المناسبات التجارية والفاعليات الخاصة بالشركة" ;
+"introTVCDesc4" = "شاهد أفضل الصفقات والعروض الدورية المقدمة من بلو أيج ، والتي تصل إلى 80% العروض الخاصة هي الوسيلة الأكثر توفير للعملاء" ;
+
+"User Name" = "أسم المستخدم";
+"Create Acccount" = "إنشاء حساب جديد";
+"Already Have Account" = "أمتلك حساب بالفعل";
+"You can register by" = "يمكنك التسجيل ب";
+
+"Register" = "التسجيل" ;
+"#We_Are_Blue_Age" = "#احناـبلوايج";
+"Now you can start in English" = "رائع الآن يمكنك البدأ باللغة العربية";
+"Now you can turn on alerts" = "الأن يمكنك تشغيل الأشعارات" ;
+"We will:" = "وسوف نقوم ب : " ;
+"Start shopping at this moment" = "إبدأي التسوق في هذه اللحظة" ;
+"Discover the wonderful features we offer you" = "وأكتشفي الخصائص الرائعة التي نقدمها لك" ;
+"Start Shoping" = "البدأ بالتسوق" ;
+
+"Newset Models" = "أحدث الموديلات" ;
+"Newset Offers" = "أحدث العروض" ;
+"Accessories" = "الإكسسوارات" ;
+"Favorites" = "المفضلة" ;
+"Follow Orders" = "تتبع الشحنات" ;
+"Profile" = "الملف الشخصي" ;
+"Updated Successfully" = "تم التحديث بنجاح";
+"SAR" = " ريال";
+"Add To Cart" = "أضف إلى السلة";
+"Categories" = "الأقسام";
+"No Products found" = "لا يوجد منتجات";
+"Free Delivery" = "توصيل مجاني";
+"Payment upon receipt" = "الدفع عند الإستلام";
+"Delivery from 2-5 days" = "التوصيل من ٢-٥ أيام";
+"My Orders" = "طلباتي";
+"My Address" = "عناويني";
+"My Credit Cards" = "بطاقاتي الإلكترونية";
+"Country" = "الدولة";
+"Cancel" = "إلغاء";
+"Done" = "تم";
+"Old Password" = "كلمة المرور الحالية";
+"New Password" = "كلمة المرور الجديدة";
+"Confirm New Password" = "تأكيد كلمة المرور الجديدة";
+"Update" = "تحديث";
+"Add Address" = "إضافة عنوان";
+"Edit Address" = "تعديل العنوان";
+
+"Save" = "حفظ";
+"Company" = "الشركة";
+"Street Address 1" = "عنوان الشارع ١";
+"Street Address 2" = "عنوان الشارع ٢";
+"Zip/Postal Code" = "الرمز البريدي";
+"Select Country" = "أختر الدولة";
+"Select Region" = "أختر المنطقة";
+"Orders" = "الطلبات";
+"Order" = "طلب";
+"Date" = "التاريخ";
+"Ship To" = "شحن إلى";
+"Total" = "إجمالي";
+"Status" = "الحالة";
+"Order Information" = "معلومات الطلب";
+"Products Details" = "تفاصيل المنتجات";
+"Product Details" = "تفاصيل المنتج";
+"Product Name" = "إسم المنتج";
+"Price" = "السعر";
+"Qty" = "الكمية";
+"Shipping Address" = "عنوان الشحن";
+"Shipping Method" = "طريقة الشحن";
+"Payment Method" = "طريقة الدفع";
+"Grand Total" = "الإجمالي";
+"SKU" = "معرف المنتج";
+"Shopping & Handling" = "الشحن والتسليم";
+"Not Found Orders" = "لا يوجد طلبات";
+"No items found" = "لا يوجد منتجات";
+"Not Found Items" = "لا يوجد منتجات";
+"Not Found Results" = "لا يوجد نتائج";
+"Not Found Addresses" = "لا يوجد عناوين";
+"Descover Newset products Now \n be the first one how owen it and add it to your wishlist." = "أكتشف أحدث منتاجاتنا الآن \n وكن أول من يمتلكها وأضفها للمفضلة.";
+"Edit" = "تعديل";
+"Select" = "أختر";
+"Added Successfully" = "تم الإضافة بنجاح";
+"Added Succssesfully" = "تم الإضافة بنجاح";
+"Updated Successfully" = "تم التحديث بنجاح";
+"Deleted Successfully" = "تم الحذف بنجاح";
+"Continue your purchase" = "متابعة عملية الشراء";
+"Continue shopping" = "مواصلة التسوق";
+"Total :" = "إجمالي :";
+"Cart" = "عربة التسوق";
+"Select Address" = "أختر العنوان";
+"Choose Shipping Method" = "أختر طريقة الشحن";
+"Choose the shipping method you wish to add ." = "اختر طريقة الشحن التي ترغب في إضافتها.";
+"Only shipping methods which supports zones are listed" = "يتم سرد طرق الشحن فقط التي تدعم المناطق الخاصة بك";
+"Apply Order" = "إنهاء الطلب";
+"Deliver To" = "تسليم إلى";
+"Apply" = "تطبيق";
+"Discount Code" = "رمز الخصم";
+"Product" = "المنتج";
+"Delivery Service" = "خدمة التوصيل";
+"Apply purchase" = "شراء" ;
+"Search" = "بحث" ;
+"Please Login First" = "من فضلك سجل دخولك أولا" ;
+"Filter" = "تصفية" ;
+"Forgot Password" = "نسيت كلمة المرور";
+"Please select country first" = "من فضلك أختر الدولة أولا";
+"unauthenticated" = "تم الغاء المصادقة" ;
+"Go to Login" = "الذهاب إلى تسجيل الدخول" ;
+
+"Each online store has its own store and bag, but if you want to go shopping in multiple places at once, so you only have one bag." = "يحتوي كل متجر على الإنترنت على متجر وحقيبة خاصة به ، ولكن إذا كنت ترغب في الذهاب للتسوق في أماكن متعددة في وقت واحد ، فلديك حقيبة واحدة فقط.";
+"Welcome to" = "مرحبا بك في" ;
+"GET STARTED" = "إبدأ الآن" ;
+"Qty : " = "الكمية : ";
+"ADD TO CART" = "أضف إلى السلة";
+"Wishlist" = "المفضلة";
+"Add to Bag" = "أضف إلى السلة";

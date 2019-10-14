@@ -1,0 +1,238 @@
+/* 
+  Localizable.strings
+  Al-Mahata
+
+  Created by abdelrahman on 6/10/18.
+  Copyright © 2018 abdelrahman. All rights reserved.
+*/
+"Privacy" = "Privacy";
+"Login" = "Sign In";
+"Home" = "Home";
+"Contact Us" = "Contact Us";
+"Setting" = "Setting";
+"Notifications" = "Notifications";
+"Logout Message" = "Are you Sure You want to logout ?";
+"Delete Message" = "Are you Sure You want to Delete ?";
+"Yes" = "Yes";
+"No" = "No";
+"Logout Title" = "Logout";
+"Email" = "Email";
+"RememberMe" = "Remember Me";
+"Password" = "Password";
+"New!" = "New!";
+"New" = "New";
+"Forgot Password ?" = "Forgot Password ?";
+"Sign Up" = "Sign Up";
+"Sign In" = "Sign In";
+"Connect With Facebook" = "Connect With Facebook";
+"Connection With" = "Connection With";
+"Connect With Twitter" = "Connect With Twitter";
+"Dashboard" = "Dashboard";
+"Edit Profile" = "Edit Profile";
+"Edit Phone" =  "Edit Phone";
+"Update Password"  =  "Update Password";
+"Settings" = "Settings";
+"Switch Language" = "Switch Language";
+"Language" = "Language";
+"Logout" = "Logout";
+"Change Language Message" = "Are you sure You want To change Language ?";
+"Change Language" = "Change Language";
+"Change Password" = "Change Password";
+"Change Phone" = "Change Phone";
+"Confirm Password" = "Confirm Password";
+"City" = "City";
+"Region" = "Region";
+"Male" = "Male";
+"Famale" = "Famale";
+"Phone" = "Phone Number";
+"Resend" = "Resend";
+"Submit" = "Submit";
+"Next" = "Next";
+"Activation Message" = "if you didn't receive the activation code within the next 30 seconds ; you can Resend the Code.";
+"Invite Friend" = "Invite Friend";
+"Invitation Profite" = "Invitation Profite";
+"Referral Link" = "Referral Link";
+"Earning Program" = "Earning Program";
+"Invitation List" = "Invitation List";
+"Withdraw Money" = "Withdraw Money";
+"Transfer Money" = "Transfer Money";
+"Sub Accounts" = "Sub Accounts";
+"Support System" = "Support System";
+"Accepted" = "Accepted";
+"Rejected" = "Rejected";
+"All Invitations" = "All Invitations";
+"Worng" = "Wrong";
+"Required" = "Required";
+"OK" = "OK";
+"error" = "Error";
+"please insert all code" = "Please insert all code";
+"wrong code" = "Wrong Code";
+"Products" = "Products";
+"Active account"  =  "Activate Account";
+
+// validation messages
+"Is Required" = "is required";
+"Is Invalid" = "is invalid";
+"Success" = "Success";
+"should not be numbers only or spcial characters"  =  "should not be numbers only or spcial characters";
+"should not be numbers only"  = "should not be numbers only";
+"should be numbers only"  = "should be numbers only";
+"must contain only letter" = "must contain only letter" ;
+"password valid"  =  "Must be contain 1 uppercase, 1 lowercase \n and 1 number";
+
+
+// amricana login page
+"Create Your Account" = "Create Your Account";
+"Forgot Your Password" = "Forgot your password ?";
+"Skip" = "Skip";
+"Help" = "Help";
+"Username" = "Username";
+
+// amricana forgot page
+"FORGET Description" = "Enter Your Email address and we'll send you activation code to reset your password ";
+
+//// BLUE Age
+
+"introName1" = "Shop safely and happily";
+"introName2" = "Easy Online Product Returns";
+"introName3" = "Discover a property I receive from the store";
+"introName4" = "Payment by cash or via bank cards";
+"introName5" = "Shop faster with service buy now";
+
+"introDesc1" = "Enjoy shopping and know that your personal profile is safe";
+"introDesc2" = "You can return or cancel your products from your account in a few easy steps.";
+"introDesc3" = "Now shop and pay for your order online and receive your products from the store";
+"introDesc4" = "We accept cash on delivery and credit or debit cards";
+"introDesc5" = "Complete your order, pay and finish shopping in one easy and convenient step";
+
+"Continue" = "Continue";
+"Shop now" = "Shop now";
+
+"Page0Descraption" = "Find a product suitable for your style in easily accessible from thousands of models through our program";
+"Page1Descraption" = "Pay all your purchases online with all available credit cards";
+"Page2Descraption" = "Receive your order as soon as possible and in the best case with the possibility of tracking your order";
+
+
+"Explore" = "Explore" ;
+"Pay" = "Pay" ;
+"Fast Delivery" = "Fast Delivery" ;
+
+"introTVCName1" = "Track your shipment";
+"introTVCName2" = "product arrival date";
+"introTVCName3" = "Events and special events";
+"introTVCName4" = "Special Offers";
+
+"introTVCDesc1" = "Our valued customers can know the actual time of arrival of their shipments through the use of an electronic tracking system";
+"introTVCDesc2" = "Our customers can know the date of arrival of selected products if they are not available on the site";
+"introTVCDesc3" = "Our customers can subscribe to all kinds of business and corporate events";
+"introTVCDesc4" = "Watch the best deals and periodic offers offered by Blue Age, up to 80% Special offers are the most satisfying means to customers";
+
+"Create Acccount" = "Create Acccount";
+"Already Have Account" = "Already Have Account";
+"You can register by" = "You can register by";
+"#We_Are_Blue_Age" = "#We_Are_Blue_Age";
+
+
+"Register" = "Register" ;
+"Now you can start in English" = "Now you can start in English";
+"Now you can turn on alerts" = "Now you can turn on alerts" ;
+"We will:" = "We will:" ;
+"Start shopping at this moment" = "Start shopping at this moment" ;
+"Discover the wonderful features we offer you" = "Discover the wonderful features we offer you" ;
+"Start Shoping" = "Start Shoping" ;
+
+"Newset Models" = "Newset Models" ;
+"Newset Offers" = "Newset Offers" ;
+"Accessories" = "Accessories" ;
+"Favorites" = "Favorites" ;
+"Follow Orders" = "Follow Orders" ;
+"Profile" = "Profile" ;
+"Updated Successfully" = "Updated Successfully";
+"SAR" = " SAR";
+"Add To Cart" = "Add To Cart";
+"Categories" = "Categories";
+"No Products found" = "Not Found Products";
+"Free Delivery" = "Free Delivery";
+"Payment upon receipt" = "Payment upon receipt";
+"Delivery from 2-5 days" = "Delivery from 2-5 days";
+"My Orders" = "My Orders";
+"My Address" = "My Address";
+"My Credit Cards" = "My Credit Cards";
+"Country" = "Country";
+"Cancel" = "Cancel";
+"Done" = "Done";
+"Old Password" = "Current Password";
+"New Password" = "New Password";
+"Confirm New Password" = "Confirm New Password";
+"Update" = "Update";
+"Add Address" = "Add Address";
+"Edit Address" = "Edit Address";
+"Save" = "Save";
+"Company" = "Company";
+"Street Address1" = "Street Address 1";
+"Street Address2" = "Street Address 2";
+"Zip/Postal Code" = "Zip/Postal Code";
+"Select Country" = "Select Country";
+"Select Region" = "Select Region";
+"Orders" = "Orders";
+"Order" = "Order";
+"Date" = "Date";
+"Ship To" = "Ship To";
+"Total" = "Total";
+"Status" = "Status";
+"Order Information" = "Order Information";
+"Products Details" = "Products Details";
+"Product Details" = "Product Details";
+"Product Name" = "Product Name";
+"Price" = "Price";
+"Qty" = "Qty";
+"Shipping Address" = "Shipping Address";
+"Shipping Method" = "Shipping Method";
+"Payment Method" = "Payment Method";
+"Grand Total" = "Grand Total";
+"SKU" = "SKU";
+"Shopping & Handling" = "Shipping & Handling";
+"Not Found Orders" = "Not Found Orders";
+"No items found" = "Not Found Products";
+"Not Found Items" = "Not Found Items";
+"Not Found Results" = "Not Found Results";
+"Not Found Addresses" = "Not Found Addresses";
+"Descover Newset products Now \n be the first one how owen it and add it to your wishlist." = "Descover Newset products Now \n be the first one how owen it and add it to your wishlist.";
+"Edit" = "Edit";
+"Select" = "Select";
+"Added Successfully" = "Added Successfully";
+"Updated Successfully" = "Updated Successfully";
+"Deleted Successfully" = "Deleted Successfully";
+"Continue your purchase" = "Continue your purchase";
+"Continue shopping" = "Continue shopping";
+"Total :" = "Total :";
+"Cart" = "Cart";
+"Select Address" = "Select Address";
+
+"Choose Shipping Method" = "Choose Shipping Method";
+"Choose the shipping method you wish to add ." = "Choose the shipping method you wish to add .";
+"Only shipping methods which supports zones are listed" = "Only shipping methods which supports zones are listed";
+"Apply Order" = "Apply Order";
+"Deliver To" = "Deliver To";
+"Apply" = "Apply";
+"Discount Code" = "Dicount Code";
+"Product" = "Product";
+"Delivery Service" = "Delivery Service";
+"Apply purchase" = "Purchase" ;
+"Search" = "Search" ;
+"Please Login First" = "Please Login First" ;
+"Filter" = "Filter" ;
+"Forgot Password" = "Forgot Password";
+"Please select country first" = "Please select country first";
+
+
+////// rina
+
+"Each online store has its own store and bag, but if you want to go shopping in multiple places at once, so you only have one bag." = "Each online store has its own store and bag, but if you want to go shopping in multiple places at once, so you only have one bag.";
+"Welcome to" = "Welcome to" ;
+"GET STARTED" = "GET STARTED" ;
+"Qty : " = "Qty : ";
+"ADD TO CART" = "ADD TO CART";
+"Wishlist" = "Wishlist";
+"Add to Bag" = "Add To Bag";
+
