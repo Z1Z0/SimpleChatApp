@@ -1,9 +1,9 @@
 //
 //  UITableViewController.swift
-//  BlueAge
+//  Chatty
 //
-//  Created by Omar Elhamy on 7/4/19.
-//  Copyright © 2019 Omar Elhamy. All rights reserved.
+//  Created by Ahmed Abd Elaziz on 10/14/19.
+//  Copyright © 2019 Ahmed Abd Elaziz. All rights reserved.
 //
 
 import UIKit

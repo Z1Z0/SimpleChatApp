@@ -1,9 +1,9 @@
 //
 //  CFAlert+UIViewControllerExt.swift
-//  base
+//  Chatty
 //
-//  Created by abdelrahman on 6/4/18.
-//  Copyright © 2018 abdelrahman. All rights reserved.
+//  Created by Ahmed Abd Elaziz on 10/14/19.
+//  Copyright © 2019 Ahmed Abd Elaziz. All rights reserved.
 //
 
 import Foundation

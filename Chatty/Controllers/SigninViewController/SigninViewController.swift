@@ -24,11 +24,13 @@ class SigninViewController: UIViewController {
         setupTextFieldPadding()
     }
     
+//MARK:- Setup Placeholder Color Functions
     func setupPlaceHolderColor() {
         emailTextField.changePlaceHolderColorToBlack(textField: emailTextField, name: "Enter your email")
         passwordTextField.changePlaceHolderColorToBlack(textField: passwordTextField, name: "Enter your password")
     }
     
+//MARK:- Setup Text Field Padding Functions
     func setupTextFieldPadding() {
         emailTextField.setLeftPaddingPoints(16.0)
         passwordTextField.setLeftPaddingPoints(16.0)

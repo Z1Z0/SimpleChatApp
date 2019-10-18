@@ -24,12 +24,14 @@ class SignupViewController: UIViewController {
         setupTextFieldPadding()
     }
     
+//MARK:- Setup Placeholder Color Functions
     func setupPlaceHolderColor() {
         usernameTextField.changePlaceHolderColorToBlack(textField: usernameTextField, name: "Enter your name")
         emailTextField.changePlaceHolderColorToBlack(textField: emailTextField, name: "Enter your email")
         passwordTextField.changePlaceHolderColorToBlack(textField: passwordTextField, name: "Enter your password")
     }
-    
+
+//MARK:- Setup Text Field Padding Functions
     func setupTextFieldPadding() {
         usernameTextField.setLeftPaddingPoints(16.0)
         emailTextField.setLeftPaddingPoints(16.0)

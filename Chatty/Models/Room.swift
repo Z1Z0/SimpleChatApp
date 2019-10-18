@@ -10,4 +10,5 @@ import UIKit
 
 struct Room {
     var roomName: String?
+    var roomID: String?
 }

@@ -53,6 +53,9 @@
 		CCA6F8362353ECD8002F48DE /* RoomsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA6F8352353ECD8002F48DE /* RoomsViewController.swift */; };
 		CCA6F8382353ED02002F48DE /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA6F8372353ED02002F48DE /* ChatViewController.swift */; };
 		CCA6F83D2353F493002F48DE /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA6F83C2353F493002F48DE /* UIViewExt.swift */; };
+		CCDFA108235528C900B903CD /* ChatBubbleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDFA106235528C900B903CD /* ChatBubbleTableViewCell.swift */; };
+		CCDFA109235528C900B903CD /* ChatBubbleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCDFA107235528C900B903CD /* ChatBubbleTableViewCell.xib */; };
+		CCDFA10B23552EA500B903CD /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDFA10A23552EA500B903CD /* Message.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -108,6 +111,9 @@
 		CCA6F8352353ECD8002F48DE /* RoomsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomsViewController.swift; sourceTree = "<group>"; };
 		CCA6F8372353ED02002F48DE /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		CCA6F83C2353F493002F48DE /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		CCDFA106235528C900B903CD /* ChatBubbleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBubbleTableViewCell.swift; sourceTree = "<group>"; };
+		CCDFA107235528C900B903CD /* ChatBubbleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatBubbleTableViewCell.xib; sourceTree = "<group>"; };
+		CCDFA10A23552EA500B903CD /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -241,6 +247,7 @@
 		CC1200CE2354BB5500BAA3B2 /* ChatViewController */ = {
 			isa = PBXGroup;
 			children = (
+				CCDFA105235528A400B903CD /* Cell */,
 				CCA6F8372353ED02002F48DE /* ChatViewController.swift */,
 			);
 			path = ChatViewController;
@@ -276,14 +283,12 @@
 		CCA6F81B2353E97F002F48DE /* Chatty */ = {
 			isa = PBXGroup;
 			children = (
+				CCDFA10C2355426A00B903CD /* Application */,
 				CC12008D2354A7FA00BAA3B2 /* Helpers */,
 				CCA6F83A2353F438002F48DE /* Models */,
 				CCA6F8392353F427002F48DE /* Views */,
 				CCA6F8342353ECA3002F48DE /* Controllers */,
-				CCA6F81C2353E97F002F48DE /* AppDelegate.swift */,
-				CC1200732354964C00BAA3B2 /* GoogleService-Info.plist */,
-				CCA6F8252353E981002F48DE /* Assets.xcassets */,
-				CCA6F82A2353E981002F48DE /* Info.plist */,
+				CCDFA10D2355427A00B903CD /* Others */,
 			);
 			path = Chatty;
 			sourceTree = "<group>";
@@ -313,6 +318,7 @@
 			isa = PBXGroup;
 			children = (
 				CC1200D42354D0E300BAA3B2 /* Room.swift */,
+				CCDFA10A23552EA500B903CD /* Message.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -336,6 +342,33 @@
 				CC1200C82354ABBC00BAA3B2 /* UITextFieldExt.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CCDFA105235528A400B903CD /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CCDFA106235528C900B903CD /* ChatBubbleTableViewCell.swift */,
+				CCDFA107235528C900B903CD /* ChatBubbleTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		CCDFA10C2355426A00B903CD /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				CCA6F81C2353E97F002F48DE /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		CCDFA10D2355427A00B903CD /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				CC1200732354964C00BAA3B2 /* GoogleService-Info.plist */,
+				CCA6F8252353E981002F48DE /* Assets.xcassets */,
+				CCA6F82A2353E981002F48DE /* Info.plist */,
+			);
+			path = Others;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -400,6 +433,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC1200C32354A83200BAA3B2 /* Localizable.strings in Resources */,
+				CCDFA109235528C900B903CD /* ChatBubbleTableViewCell.xib in Resources */,
 				CC1200BA2354A83200BAA3B2 /* isSuccessIcon.png in Resources */,
 				CC1200D32354BB9B00BAA3B2 /* RoomsTableViewCell.xib in Resources */,
 				CC1200B52354A83200BAA3B2 /* isErrorIcon@2x.png in Resources */,
@@ -473,6 +507,7 @@
 				CC1200842354A5BD00BAA3B2 /* UITextField+Extensions.swift in Sources */,
 				CC1200882354A5BD00BAA3B2 /* UIBarButtonItem.swift in Sources */,
 				CC1200862354A5BD00BAA3B2 /* String.swift in Sources */,
+				CCDFA10B23552EA500B903CD /* Message.swift in Sources */,
 				CC1200852354A5BD00BAA3B2 /* UIColor.swift in Sources */,
 				CC1200B22354A83200BAA3B2 /* AlertController.swift in Sources */,
 				CCA6F8312353EC75002F48DE /* SigninViewController.swift in Sources */,
@@ -484,6 +519,7 @@
 				CC1200C52354A83200BAA3B2 /* LanguageManager.swift in Sources */,
 				CC12008C2354A5BD00BAA3B2 /* UITableView.swift in Sources */,
 				CC1200822354A5BD00BAA3B2 /* UITableViewController.swift in Sources */,
+				CCDFA108235528C900B903CD /* ChatBubbleTableViewCell.swift in Sources */,
 				CCA6F8382353ED02002F48DE /* ChatViewController.swift in Sources */,
 				CC1200D22354BB9B00BAA3B2 /* RoomsTableViewCell.swift in Sources */,
 				CCA6F83D2353F493002F48DE /* UIViewExt.swift in Sources */,
@@ -652,7 +688,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 57RA7SGH3Y;
-				INFOPLIST_FILE = Chatty/Info.plist;
+				INFOPLIST_FILE = Chatty/Others/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -672,7 +708,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 57RA7SGH3Y;
-				INFOPLIST_FILE = Chatty/Info.plist;
+				INFOPLIST_FILE = Chatty/Others/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

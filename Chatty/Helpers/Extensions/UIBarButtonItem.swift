@@ -1,9 +1,9 @@
 //
 //  UIBarButtonItem.swift
-//  Chefaa
+//  Chatty
 //
-//  Created by Chefaa on 8/26/19.
-//  Copyright © 2019 Abdelrahman Eldesoky. All rights reserved.
+//  Created by Ahmed Abd Elaziz on 10/14/19.
+//  Copyright © 2019 Ahmed Abd Elaziz. All rights reserved.
 //
 
 import UIKit

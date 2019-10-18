@@ -55,13 +55,14 @@ class RoomsViewController: UIViewController {
             }
         }
     }
-    
+
+//MARK:- Observe Rooms Functions
     func observeRooms() {
         let databaseRef = Database.database().reference()
         databaseRef.child("rooms").observe(.childAdded) { (snapshot) in
             if let dataArray = snapshot.value as? [String: Any] {
                 if let roomName = dataArray["roomName"] as? String {
-                    let room = Room.init(roomName: roomName)
+                    let room = Room.init(roomName: roomName, roomID: snapshot.key)
                     self.rooms.append(room)
                     self.roomsTableView.reloadData()
                 }
@@ -71,12 +72,14 @@ class RoomsViewController: UIViewController {
 
 }
 
+//MARK:- UITableViewDelegate
 extension RoomsViewController: UITableViewDelegate{
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return UITableView.automaticDimension //Choose your custom row height
     }
 }
 
+//MARK:- UITableViewDataSource
 extension RoomsViewController: UITableViewDataSource{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return self.rooms.count
@@ -90,7 +93,9 @@ extension RoomsViewController: UITableViewDataSource{
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let selectedRoom = self.rooms[indexPath.row]
         let chatVC = self.storyboard?.instantiateViewController(withIdentifier: "ChatViewController") as? ChatViewController
+        chatVC?.room = selectedRoom
         self.show(chatVC!, sender: nil)
     }
     
